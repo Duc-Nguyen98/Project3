@@ -1,0 +1,41 @@
+#video-promo {
+    background-color: #61d2b4;
+}
+#video-promo .show-video{
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.875rem;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    border: 0.188rem solid #fff;
+    cursor: pointer;
+    pointer-events: all;
+    background: none;
+    color: #fff;
+}
+#video-promo .show-video:focus{
+    outline: none;
+}
+#video-promo h2{
+    font-size: 1.875rem;
+    text-transform: uppercase;
+}
+
+#video-promo .section-header p{
+    font-size: 0.875rem;
+        color: #fff;
+}
+#video-promo .modal-video-close-btn{
+    cursor: pointer;
+}
+#video-promo .section-title{
+        margin-bottom: 1.875rem;
+        color: #fff;
+}
+@media (max-width: 768px)
+{
+    #video-promo h2{
+        font-size: 1.375rem;
+    }
+}

@@ -1,0 +1,23 @@
+
+
+footer a.active ,footer a:hover{
+    color: #61d2b4;
+}
+
+
+footer{
+    padding: 1.25rem 0rem;
+    background: #292f35;
+    color: #fff;
+    font-size: 14px;
+}
+footer li.nav-item{
+    line-height: 3rem;
+}
+footer li.nav-item a{
+    margin-right: 15px;
+    color: #fff;
+}
+footer li.nav-item a:hover{
+    color: #61d2b4;
+}

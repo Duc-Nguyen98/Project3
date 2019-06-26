@@ -1,0 +1,22 @@
+.section-item-box:hover .icon-type-one{
+    background: #61d2b4;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.section-item-box:hover .icon-type-one i{
+    color: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.section-item-box{
+	-webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+#services .icon-type-one i{
+    color: #61d2b4;
+    font-size: 1.625rem;
+    line-height: 60px!important;
+}

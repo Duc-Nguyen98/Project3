@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trang chủ</title>
+
+    <!-- css BS -->
+    <link rel="stylesheet" href="vendor/css/boostrap-4-v6.css">
+    <link rel="stylesheet" href="vendor/css/animate.css">
+    <!-- End CSS BS -->
+
+    <!-- css of developer -->
+    <link rel="stylesheet" href="developer/atomic.css">
+
+    <!-- end css of developer -->
+
+    <!-- css header -->
+    <link rel="stylesheet" href="developer/section.css">
+    <link rel="stylesheet" href="developer/section-header.css">
+
+    <!-- end css header -->
+
+
+    <!-- css sections     -->
+    <link rel="stylesheet" href="developer/Section-slider.css">
+    <link rel="stylesheet" href="developer/article.css">
+    <link rel="stylesheet" href="developer/section-portfolio.css">
+    <link rel="stylesheet" href="developer/section-services.css">
+    <link rel="stylesheet" href="developer/Section-video-promo.css">
+    <link rel="stylesheet" href="developer/section-blog.css">
+    <link rel="stylesheet" href="developer/section-feature.css">
+    <link rel="stylesheet" href="developer/section-counter.css">
+    <link rel="stylesheet" href="developer/section-contact.css">
+    <link rel="stylesheet" href="developer/footer.css">
+
+    <!-- end css sections -->
+
+    <!-- modal video  -->
+    <link rel="stylesheet" href="vendor/modal-video/modal-video.min.css">
+    <link rel="stylesheet" href="vendor/Owl Carousel v2.3.4/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/Owl Carousel v2.3.4/owl.theme.default.min.css">
+    <!-- setup font  -->
+    <link rel="stylesheet" href="vendor/css/awe-some.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+    <!-- end link font with CDN font Google  -->
+</head>
+
+<!-- <body data-spy="scroll" data-target=".navbar" data-offset="30"> -->
+
+<body>
+
+
+    <header class="position-relative" id="header-big">
+
+        <nav class="navbar scrollpy-my-website navbar-toggleable-md  position-fixed html-team-nav ">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="lnr lnr-menu"></i>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo/logo.png" alt=""></a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto scrollpy-my-website">
+                        <li class="nav-item active">
+                            <a class="nav-link active" href="#header-big">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#our_team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing_table">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- // end NAV  -->
+
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-10">
+                    <div class="contents text-center">
+                        <h1 class="slogan wow fadeInDown  animated" data-wow-duration="1000ms" data-wow-delay="0.3s">
+                            Mate - Free Parallax Website Template</h1>
+                        <p class="wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="400ms">Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit.</p>
+                        <a class="btn btn-outline btn-header wow fadeInUp animated" data-wow-duration="1000ms"
+                            data-wow-delay="400ms" href="#"> DOWNLOAD</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="services" class="pd-80-0 position-relative">
+        <div class="container">
+            <div class="section-header mb-40px">
+                <h2 class="section-title color-333 text-center wow fadeIn animated" data-wow-duration="1000ms"
+                    data-wow-delay="0.3s">OUR SERVICES</h2>
+                <hr class='lines zoomIn animated' data-wow-delay="0.3s" />
+                <p class="section-subtitle text-center wow fadeIn animated" data-wow-duration="1000ms"
+                    data-wow-delay="0.3s">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <figcaption class="section-item-box text-center  wow fadeInDown "data-wow-duration="2000ms" data-wow-delay="0.2s" >
+                        <div class="icon-type-one">
+                            <i class="lnr lnr-pencil line-height-60 blue font-size-26" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="fw-700 mb-10px font-size-20">Content Writing</h4>
+                        <p class="line-height-26 font-size-14 fw-400" style="color:#333">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut.
+                        </p>
+                    </figcaption>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <figcaption class="section-item-box text-center wow fadeInDown "data-wow-duration="2000ms" data-wow-delay="1.4s">
+                        <div class="icon-type-one wow fadeInDown">
+                            <i class="lnr lnr-code line-height-60 blue font-size-26" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="fw-700 mb-10px font-size-20 zoomIn animated">Web Development</h4>
+                        <p class="line-height-26 font-size-14 fw-400 zoomIn animated" style="color:#333">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut.
+                        </p>
+                    </figcaption>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <figcaption class="section-item-box text-center wow fadeInDown "data-wow-duration="2000ms" data-wow-delay="1.6s">
+                        <div class="icon-type-one">
+                            <i class="lnr lnr-mustache line-height-60 blue font-size-26" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="fw-700 mb-10px font-size-20">Business Consultancy</h4>
+                        <p class="line-height-26 font-size-14 fw-400" style="color:#333">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut.
+                        </p>
+                    </figcaption>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="pd-80-0">
+        <div class="container">
+            <div class="section-header mb-40px">
+                <h2 class="section-title text-center color-fff " data-wow-duration="1000ms"
+                    data-wow-delay="0.9s">SOME FEATURES</h2>
+                <hr class='lines zoomIn animated' data-wow-delay="1s" />
+                <p class="section-subtitle color-fff text-center " >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur.
+                </p>
+            </div>
+            <div class="row ">
+                <div class="col-lg-8 col-md-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6 col-xs-12 box-item pd-15-0">
+                                <span class="icon-type-one float-left">
+                                    <i class="lnr lnr-rocket line-height-60 blue font-size-26"></i>
+                                </span>
+                                <div class="text pd-left-80">
+                                    <h4 class="letter-spacing-1px">Bootstrap 4 Based</h4>
+                                    <p class="font-size-14 line-height-26 color-fff">Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6 col-xs-12 box-item pd-15-0">
+                                <span class="icon-type-one float-left">
+                                    <i class="lnr lnr-laptop-phone line-height-60 blue font-size-26"></i>
+                                </span>
+                                <div class="text pd-left-80">
+                                    <h4 class="letter-spacing-1px">Fully Responsive</h4>
+                                    <p class="font-size-14 line-height-26 color-fff">Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6 col-xs-12 box-item pd-15-0">
+                                <span class="icon-type-one float-left">
+                                    <i class="lnr lnr-layers line-height-60 blue font-size-26"></i>
+                                </span>
+                                <div class="text pd-left-80">
+                                    <h4 class="letter-spacing-1px">Parallax Background</h4>
+                                    <p class="font-size-14 line-height-26 color-fff">Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6 col-xs-12 box-item pd-15-0">
+                                <span class="icon-type-one float-left">
+                                    <i class="lnr lnr-cog line-height-60 blue font-size-26"></i>
+                                </span>
+                                <div class="text pd-left-80">
+                                    <h4 class="letter-spacing-1px">Easy to Customize</h4>
+                                    <p class="font-size-14 line-height-26 color-fff">Lorem Ipsum is simply dummy text of
+                                        the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12 hidden-md-down">
+                    <div class="staff">
+                        <img class="img-fluid position-absolute" style="bottom: -120px;"
+                            src="images/Section Features/Staff/staff-one.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolios" class="pd-80-0">
+        <div class="container">
+            <div class="section-header mb-40px">
+                <h2 class="section-title color-333 text-center " >OUR PORTFOLIO</h2>
+                <hr class='lines zoomIn animated' data-wow-delay="1s" />
+                <p class="section-subtitle text-center wow fadeIn animated" data-wow-duration="1000ms"
+                    data-wow-delay="1.2s">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+                    <br />
+                    Lorem ipsum dolor sit amet, consectetur.
+                </p>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <div class="control-portfolio text-center">
+                        <div class="list-portfolio d-inline-block">
+                            <ul class="nav">
+                                <li class="nav-item portfolio-item active" data-portfolio="*">
+                                    all
+                                </li>
+                                <li class="nav-item portfolio-item" data-portfolio=".design">
+                                    design
+                                </li>
+                                <li class="nav-item portfolio-item" data-portfolio=".development">
+                                    development
+                                </li>
+                                <li class="nav-item portfolio-item" data-portfolio=".print">
+                                    print
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row all-portfolio">
+
+
+                <div class="col-lg-4 col-sm-6 col-xs-12 pd-10px item development print">
+                    <div class="portfolio-item position-relative">
+                        <div class="shot-item">
+                            <img src="images/Section Portfolio/All/img1.jpg" alt="">
+                            <!-- Large modal -->
+
+                            <span
+                                class="overlay lightbox position-absolute d-flex justify-content-center align-items-center">
+                                <i class="lnr lnr-eye item-icon"></i>
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 pd-10px item print" data-portfolio="print">
+                    <div class="portfolio-item position-relative">
+                        <div class="shot-item">
+                            <img src="images/Section Portfolio/All/img2.jpg" alt="">
+                            <!-- Large modal -->
+
+                            <span
+                                class="overlay lightbox position-absolute d-flex justify-content-center align-items-center">
+                                <i class="lnr lnr-eye item-icon"></i>
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 pd-10px item design" data-portfolio="">
+                    <div class="portfolio-item position-relative">
+                        <div class="shot-item">
+                            <img src="images/Section Portfolio/All/img3.jpg" alt="">
+                            <!-- Large modal -->
+
+                            <span
+                                class="overlay lightbox position-absolute d-flex justify-content-center align-items-center">
+                                <i class="lnr lnr-eye item-icon"></i>
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 pd-10px item print" data-portfolio="">
+                    <div class="portfolio-item position-relative">
+                        <div class="shot-item">
+                            <img src="images/Section Portfolio/All/img4.jpg" alt="">
+                            <!-- Large modal -->
+
+                            <span
+                                class="overlay lightbox position-absolute d-flex justify-content-center align-items-center">
+                                <i class="lnr lnr-eye item-icon"></i>
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 pd-10px item design" data-portfolio="">
+                    <div class="portfolio-item position-relative">
+                        <div class="shot-item">
+                            <img src="images/Section Portfolio/All/img5.jpg" alt="">
+                            <!-- Large modal -->
+
+                            <span
+                                class="overlay lightbox position-absolute d-flex justify-content-center align-items-center">
+                                <i class="lnr lnr-eye item-icon"></i>
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 pd-10px item development" data-portfolio="">
+                    <div class="portfolio-item position-relative">
+                        <div class="shot-item">
+                            <img src="images/Section Portfolio/All/img6.jpg" alt="">
+                            <!-- Large modal -->
+
+                            <span
+                                class="overlay lightbox position-absolute d-flex justify-content-center align-items-center">
+                                <i class="lnr lnr-eye item-icon"></i>
+                            </span>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="video-promo" class='pd-80-0'>
+        <div class="container">
+            <div class="section-header mb-40px">
+                <h2 class="section-title color-fff mb-30px text-center wow fadeIn  " data-wow-duration="1000ms"
+                    data-wow-delay="100ms"
+                    >
+                    WATCH OUR INTRO VIDEO</h2>
+                <hr class="lines zoomIn animated" data-wow-delay="1s">
+                <p class="font-size-14 fw-400 mb color-fff text-center wow fadeIn  animated" data-wow-duration="1000ms"
+                data-wow-delay="100ms"
+                    >
+                    Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere
+                    lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non, semper
+                    orci.
+                </p>
+            </div>
+            <div class="row justify-content-center wow fadeInUp " data-wow-duration="1000ms" data-wow-delay="0.3s">
+                <button class="js-modal-btn show-video rounded-circle color-fff bg-transparent" 
+                    data-video-id="/embed/6R7SiDz8oFw'frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen>"><i class="lnr lnr-film-play"></i></button>
+
+            </div>
+            <script>
+                window.addEventListener('DOMContentLoaded', function () {
+                    new ModalVideo(".js-modal-btn", {
+                        channel: 'youtube'
+                    });
+                });
+            </script>
+        </div>
+    </section>
+    <section id="pricing_table" class="pd-80-0">
+        <div class="container">
+            <div class="section_header text-center">
+                <h1 class="section_title">pricing table</h1>
+                <p class="section_subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur.
+                </p>
+            </div> <!-- End section_header -->
+
+            <div class="row section_tables">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="pricing_table">
+                        <div class="deltais_pricing">
+                            <h2>Free</h2>
+                            <h3>$00</h3>
+                            <ul>
+
+                                <li>Consectetur adipiscing</li>
+                                <li>Nunc luctus nulla et tellus</li>
+                                <li>Suspendisse quis metus</li>
+                                <li>Vestibul varius fermentum erat</li>
+
+                            </ul>
+                        </div> <!-- End deltais_pricing -->
+
+                        <div class="btn_pricing">
+                            <a href="#">get plan</a>
+                        </div> <!-- End btn_pricing -->
+                    </div> <!-- End pricing_table -->
+                </div> <!-- End col-xs-12 col-md-4 col-sm-6 col-xs-12 -->
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="pricing_table">
+                        <div class="deltais_pricing">
+                            <h2>popular</h2>
+                            <h3>$3.99</h3>
+                            <ul>
+
+                                <li>Consectetur adipiscing</li>
+                                <li>Nunc luctus nulla et tellus</li>
+                                <li>Suspendisse quis metus</li>
+                                <li>Vestibul varius fermentum erat</li>
+
+                            </ul>
+                        </div> <!-- End deltais_pricing -->
+
+                        <div class="btn_pricing">
+                            <a href="#">buy now</a>
+                        </div> <!-- End btn_pricing -->
+                    </div> <!-- End pricing_table -->
+                </div> <!-- End col-xs-12 col-md-4 col-sm-6 col-xs-12 -->
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <div class="pricing_table">
+                        <div class="deltais_pricing">
+                            <h2>premium</h2>
+                            <h3>$9.50</h3>
+                            <ul>
+
+                                <li>Consectetur adipiscing</li>
+                                <li>Nunc luctus nulla et tellus</li>
+                                <li>Suspendisse quis metus</li>
+                                <li>Vestibul varius fermentum erat</li>
+
+                            </ul>
+                        </div> <!-- End deltais_pricing -->
+
+                        <div class="btn_pricing">
+                            <a href="#">buy now</a>
+                        </div> <!-- End btn_pricing -->
+                    </div> <!-- End pricing_table -->
+                </div> <!-- End col-xs-12 col-md-4 col-sm-6 col-xs-12 -->
+            </div>
+            <!--End section_tables -->
+        </div> <!-- End container -->
+    </section>
+
+    <hr>
+    <section id="counters" class="pd-80-0">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counters-item text-center">
+                        <div class="icon mb-30px">
+                            <span class="lnr lnr-clock font-size-50 color-fff"></span>
+                        </div>
+                        <div class="counters-description">
+                            <h3 class="counters-description-number fw-700 counter-value countupthis color-fff wow"
+                                data-count="1589">0
+
+                            </h3>
+                            <h4 class="counters-description-subtitle color-fff">
+                                Working Hours
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counters-item text-center">
+                        <div class="icon mb-30px">
+                            <span class="lnr lnr-briefcase font-size-50 color-fff"></span>
+                        </div>
+                        <div class="counters-description">
+                            <h3 class="counters-description-number fw-700 counter-value countupthis color-fff woww"
+                                data-count="699">
+
+                            </h3>
+                            <h4 class="counters-description-subtitle color-fff">
+                                Completed Projects
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counters-item text-center">
+                        <div class="icon mb-30px">
+                            <span class="lnr lnr-user font-size-50 color-fff"></span>
+                        </div>
+                        <div class="counters-description">
+                            <h3 class="counters-description-number fw-700  counter-value countupthis color-fff woww"
+                                data-count="202">
+
+                            </h3>
+                            <h4 class="counters-description-subtitle color-fff">
+                                No. of Clients
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counters-item text-center">
+                        <div class="icon mb-30px">
+                            <span class="lnr lnr-heart font-size-50 color-fff"></span>
+                        </div>
+                        <div class="counters-description">
+                            <h3 class="counters-description-number fw-700 counter-value countupthis color-fff woww"
+                                data-count="1689">
+
+                            </h3>
+                            <h4 class="counters-description-subtitle color-fff">
+                                Peoples Love
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade pr-o" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+
+
+
+
+
+    <section id="our_team" class="pd-80-0">
+        <div class="container">
+            <div class="section_header text-center">
+                <h1 class="section_title">our team</h1>
+                <p class="section_subtitle">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur.
+                </p>
+            </div> <!-- End section_header -->
+
+            <div class="row section_article">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="our_team text-center">
+                        <img src="images/article/Our_team/team1.jpg" alt="image_our_team" class="img-fluid">
+
+                        <div class="our_team_details">
+                            <h4>Jhon Doe</h4>
+                            <p>Chief Technical Officer</p>
+                            <ul class="list_items">
+                                <li class="facebook">
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li class="twitter">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li class="google">
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+
+                                <li class="linkedin">
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!-- End our_team_details -->
+                    </div> <!-- End our_team -->
+                </div> <!-- End col-xs-12 col-sm-12 col-md-6 col-lg-3-->
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="our_team text-center">
+                        <img src="images/article/Our_team/team2.jpg" alt="image_our_team" class="img-fluid">
+
+                        <div class="our_team_details">
+                            <h4>Paul Kowalsy</h4>
+                            <p>CEO & Co-Founder</p>
+                            <ul class="list_items">
+                                <li class="facebook">
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li class="twitter">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li class="google">
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+
+                                <li class="linkedin">
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!-- End our_team_details -->
+                    </div> <!-- End our_team -->
+                </div> <!-- End col-xs-12 col-sm-12 col-md-6 col-lg-3-->
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="our_team text-center">
+                        <img src="images/article/Our_team/team3.jpg" alt="image_our_team" class="img-fluid">
+
+                        <div class="our_team_details">
+                            <h4>Emilly Williams</h4>
+                            <p>Business Manager</p>
+                            <ul class="list_items">
+                                <li class="facebook">
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li class="twitter">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li class="google">
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+
+                                <li class="linkedin">
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!-- End our_team_details -->
+                    </div> <!-- End our_team -->
+                </div> <!-- End col-xs-12 col-sm-12 col-md-6 col-lg-3-->
+
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="our_team text-center">
+                        <img src="images/article/Our_team/team4.jpg" alt="image_our_team" class="img-fluid">
+
+                        <div class="our_team_details">
+                            <h4>Patricia Green</h4>
+                            <p>Graphic Designer</p>
+                            <ul class="list_items">
+                                <li class="facebook">
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+
+                                <li class="twitter">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+
+                                <li class="google">
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+
+                                <li class="linkedin">
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!-- End our_team_details -->
+                    </div> <!-- End our_team -->
+                </div> <!-- End col-xs-12 col-sm-12 col-md-6 col-lg-3-->
+            </div>
+            <!--End section_article -->
+        </div> <!-- End container -->
+    </section>
+    <section id="testimonial" class="pd-80-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel owl-theme text-center">
+                            <div class="testimonial-item text-center">
+                                <img class='d-inline' src="images/Section Testimonial/staffs/customer1.jpg" alt="Client Testimonoal">
+                                <div class="testimonial-text text-center">
+                                    <p class="font-size-14 fw-400 m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. send do <br> adipisicing
+                                        ciusmod tempor incididunt ut labore et</p>
+                                    <h3 class='fw-700'>Jone Deam</h3>
+                                    <span class='color-999 font-size-14'>Fondor of Jalmori</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-item text-center">
+                                    <img class='d-inline' src="images/Section Testimonial/staffs/customer2.jpg" alt="Client Testimonoal">
+                                    <div class="testimonial-text text-center">
+                                        <p class="font-size-14 fw-400 m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. send do <br> adipisicing
+                                            ciusmod tempor incididunt ut labore et</p>
+                                        <h3 class='fw-700'>Jone Deam</h3>
+                                        <span class='color-999 font-size-14'>Fondor of Jalmori</span>
+                                    </div>
+                                </div>
+                                <div class="testimonial-item text-center">
+                                        <img class='d-inline' src="images/Section Testimonial/staffs/customer3.jpg" alt="Client Testimonoal">
+                                        <div class="testimonial-text text-center">
+                                            <p class="font-size-14 fw-400 m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. send do <br> adipisicing
+                                                ciusmod tempor incididunt ut labore et</p>
+                                            <h3 class='fw-700'>Jone Deam</h3>
+                                            <span class='color-999 font-size-14'>Fondor of Jalmori</span>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item text-center">
+                                            <img class='d-inline' src="images/Section Testimonial/staffs/customer4.jpg" alt="Client Testimonoal">
+                                            <div class="testimonial-text text-center">
+                                                <p class="font-size-14 fw-400 m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. send do <br> adipisicing
+                                                    ciusmod tempor incididunt ut labore et</p>
+                                                <h3 class='fw-700'>Jone Deam</h3>
+                                                <span class='color-999 font-size-14'>Fondor of Jalmori</span>
+                                            </div>
+                                        </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </section>
+    <section id="blog" class="pd-80-0">
+        <div class="container">
+            <div class="section-header mb-40px">
+                <h2 class="section-title text-center color-333 " >
+                    RECENT BLOG</h2>
+                <hr class="lines zoomIn animated" data-wow-delay="1s">
+                <p class="section-subtitle text-center ">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-item-wrapper">
+                        <div class="blog-item-img">
+                            <a href="">
+                                <img class="img-fluid" src="images/Section Blog/thumails/img1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item-text pd-20-0">
+                            <div class="blog-times-comment mb-10px color-999">
+                                <span class="times mr-10px font-size-14 fw-400">
+                                    <i class="lnr  lnr-clock"></i>
+                                    2 Days Ago
+                                </span>
+                                <span class="comments mr-10px font-size-14 fw-400 ">
+                                    <a href="" class="color-999 hover-color-61d2b4">
+                                        <i class="lnr lnr-bubble"></i>
+                                        24 Comments
+                                    </a>
+                                </span>
+                            </div>
+                            <h3 class="fw-700 ">
+                                <a class="hover-color-61d2b4 color-333 mb-10px line-height-26 font-size-18"
+                                    href="">Content is still king</a>
+                            </h3>
+                            <p class="mb-20px color-333 fw-400 font-size-14" style="line-height: 1.5625rem">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua...
+                            </p>
+                            <a href="" class="color-999 font-size-14 hover-color-61d2b4">
+                                Read More
+                                <i class="lnr lnr-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-item-wrapper">
+                        <div class="blog-item-img">
+                            <a href="">
+                                <img class="img-fluid" src="images/Section Blog/thumails/img2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item-text pd-20-0">
+                            <div class="blog-times-comment mb-10px color-999">
+                                <span class="times mr-10px font-size-14 fw-400">
+                                    <i class="lnr  lnr-clock"></i>
+                                    2 Days Ago
+                                </span>
+                                <span class="comments mr-10px font-size-14 fw-400 ">
+                                    <a href="" class="color-999 hover-color-61d2b4">
+                                        <i class="lnr lnr-bubble"></i>
+                                        24 Comments
+                                    </a>
+                                </span>
+                            </div>
+                            <h3 class="fw-700 ">
+                                <a class="hover-color-61d2b4 color-333 mb-10px line-height-26 font-size-18"
+                                    href="">Social media at work</a>
+                            </h3>
+                            <p class="mb-20px color-333 fw-400 font-size-14" style="line-height: 1.5625rem">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua...
+                            </p>
+                            <a href="" class="color-999 font-size-14 hover-color-61d2b4">
+                                Read More
+                                <i class="lnr lnr-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="blog-item-wrapper">
+                        <div class="blog-item-img">
+                            <a href="">
+                                <img class="img-fluid" src="images/Section Blog/thumails/img3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="blog-item-text pd-20-0">
+                            <div class="blog-times-comment mb-10px color-999">
+                                <span class="times mr-10px font-size-14 fw-400">
+                                    <i class="lnr  lnr-clock"></i>
+                                    2 Days Ago
+                                </span>
+                                <span class="comments mr-10px font-size-14 fw-400 ">
+                                    <a href="" class="color-999 hover-color-61d2b4">
+                                        <i class="lnr lnr-bubble"></i>
+                                        24 Comments
+                                    </a>
+                                </span>
+                            </div>
+                            <h3 class="fw-700 ">
+                                <a class="hover-color-61d2b4 color-333 mb-10px line-height-26 font-size-18" href="">How
+                                    often should you tweet?</a>
+                            </h3>
+                            <p class="mb-20px color-333 fw-400 font-size-14" style="line-height: 1.5625rem">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua...
+                            </p>
+                            <a href="" class="color-999 font-size-14 hover-color-61d2b4">
+                                Read More
+                                <i class="lnr lnr-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="pd-80-0" style="background: #343a40">
+        <div class="contact-form">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12">
+                        <h3 class="color-fff fw-700 font-size-36 mb-45 contact-tittle">
+                            Contact With us
+                        </h3>
+                        <div class="contact-address">
+                            <p class="font-size-14 color-fff">Centerville Road, DE 19808, US </p>
+                            <p class="phone font-size-14 color-fff">Phone: <span style="color: #61d2b4;"
+                                    class="pl-10">(+94 123 456 789)</span></p>
+                            <p class="email font-size-14 color-fff">E-mail: <span
+                                    style="color: #61d2b4;">(contact@mate.com)</span></p>
+                        </div>
+                        <div class="social-icons mt-40">
+                            <ul>
+                                <li class="facebook d-inline-block"><a href="#"
+                                        class="mr-5px rounded-circle square-40x40 bg-ddd font-size-16 d-block text-center line-height-40"><i
+                                            class="fa fa-facebook" style="color: #4867aa;"></i></a></li>
+                                <li class="twitter d-inline-block"><a href="#"
+                                        class="mr-5px rounded-circle square-40x40 bg-ddd font-size-16 d-block text-center line-height-40"><i
+                                            class="fa fa-twitter" style="color: #1da1f2;"></i></a></li>
+                                <li class="google-plus d-inline-block"><a href="#"
+                                        class="mr-5px rounded-circle square-40x40 bg-ddd font-size-16 d-block text-center line-height-40"><i
+                                            class="fa fa-google-plus" style="color: #dd4d42;"></i></a></li>
+                                <li class="linkedin d-inline-block"><a href="#"
+                                        class="mr-5px rounded-circle square-40x40 bg-ddd font-size-16 d-block text-center line-height-40"><i
+                                            class="fa fa-linkedin" style="color: #007bb6;"></i></a></li>
+                                <li class="dribbble d-inline-block"><a href="#"
+                                        class="mr-5px rounded-circle square-40x40 bg-ddd font-size-16 d-block text-center line-height-40"><i
+                                            class="fa fa-dribbble" style="color: #ea4c89;"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="contact-form details">
+                            <form action="" id="contactForm">
+                                <div class="row">
+                                    <div class="col-md-12 contact-form-item position-relative"
+                                        data-error-message='Please enter your name'>
+                                        <input id="name" data-error="Please enter your email"
+                                            class="need-input border-fff mb-3 form-control rounded-0 bg-transparent focus  pd-14px"
+                                            type="text" placeholder="Your Name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-12 contact-form-item position-relative"
+                                        data-error-message='Please enter your email'>
+                                        <input type="email" id="email" data-error="Please enter your email"
+                                            class="need-input border-fff mb-3 form-control  rounded-0 bg-transparent focus  pd-14px"
+                                            type="text" placeholder="Your Email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="col-md-12 contact-form-item position-relative"
+                                        data-error-message='Write your message'>
+                                        <textarea id="message" data-error="Please enter your email"
+                                            class="need-input border-fff mb-3 form-control rounded-0 bg-transparent focus  pd-14px"
+                                            type="text" placeholder="Your Message"></textarea>
+
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="submit-button text-center">
+                                    <button class="btn btn-common " id="submit" type="submit"
+                                        style="pointer-events: all;cursor: pointer;">Send Message</button>
+
+                                    <div id="msgSubmit" class="h3 text-center text-danger">Did you fill in the form
+                                        properly?</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <footer class="pd-20-0 bg-292f35 color-fff">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <!-- <ul class="nav justify-content-center float-left line-height-48"> -->
+                    <li class="nav-item float-left line-height-48">
+                        <a class="nav-link color-fff mg-r-15px font-size-14 p-0" href="#">Homepage</a>
+                    </li>
+                    <li class="nav-item float-left line-height-48">
+                        <a class="nav-link color-fff mg-r-15px font-size-14 p-0" href="#">Services</a>
+                    </li>
+                    <li class="nav-item float-left line-height-48">
+                        <a class="nav-link color-fff mg-r-15px font-size-14 p-0" href="#">About Us</a>
+                    </li>
+
+                    <li class="nav-item float-left line-height-48">
+                        <a class="nav-link color-fff mg-r-15px font-size-14 p-0" href="#">Contact</a>
+                    </li>
+
+
+                </div>
+                <div class="col-sm-6 col-xs-12 d-md-flex justify-content-end align-items-center mt-10px">
+                    <p class="font-size-14 mb-3">
+                        All copyrights reserved © 2018 - Designed & Developed by UIdeck
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <a href='#' class="back-to-top">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a>
+    <!-- JS Vendor BS -->
+    <script src="vendor/javascript/jquery-3.1.1.slim.min.js"></script>
+    <script src="vendor/javascript/tether.min.js"></script>
+    <script src="vendor/javascript/bootstrap.min.js"></script>
+    <script src="vendor/javascript/wow.min.js"></script>
+    <script src="vendor/modal-video/modal-video.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="vendor/Owl Carousel v2.3.4/Owl Carousel v2.3.4.min.js"></script>
+    <!-- End JS Vendor BS -->
+
+
+    <!-- enable owl-slide -->
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                margin: 10,
+                
+                // nav: true => click left - right 
+                loop: true,
+                autoplay: true,
+                responsive: {
+                    1: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    }
+                }
+            })
+        })
+    </script>
+
+
+    <!-- enable wow animatin -->
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- script header -->
+
+    <script>
+        $(document).ready(function () {
+            $('body, html').scrollspy({
+                target: ".navbar",
+                offset: 80
+            });
+            $('#header-big  .html-team-nav a').on('click', function (e) {
+                if (this.hash !== "") {
+                    e.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 300, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        })
+    </script>
+
+    <!-- Script Back - To - Top  -->
+
+    <script>
+        $(document).ready(function () {
+            // để rảnh ngồi đóng gói code
+            $(window).on('scroll', function () {
+                var positionOfButtonBackToTop = $('body, html').scrollTop();
+                var flag = false;
+                if (positionOfButtonBackToTop >= 500 && flag == false) {
+                    $('.back-to-top').css({
+                        'display': 'block',
+                        'opacity': '1',
+                    });
+                    flag = true;
+                } else {
+                    $('.back-to-top').css({
+                        'display': 'none',
+                    });
+                }
+                $('.back-to-top').on("click", function () {
+
+                    $('body, html').scrollTop();
+
+                })
+            });
+
+        });
+    </script>
+
+
+    <!-- Script menu UI  -->
+
+    <script>
+        $(document).ready(function () {
+            $(window).on('scroll onload load', function () {
+                let positionNow = $('body, html').scrollTop();
+                if (positionNow >= 200) {
+                    $('#header-big  .html-team-nav').addClass('scroll ,fadeInDown')
+                } else {
+                    $('#header-big  .html-team-nav').removeClass('scroll ,fadeInDown');
+                }
+            });
+        });
+    </script>
+
+
+
+
+    <!-- library counter.js -->
+    <script>
+        var a = 0;
+        $(window).scroll(function () {
+
+            var oTop = $('#counters').offset().top - window.innerHeight;
+            if (a == 0 && $(window).scrollTop() > oTop) {
+                $('.counter-value').each(function () {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+                    $({
+                        countNum: $this.text()
+                    }).
+                    animate({
+                            countNum: countTo
+                        },
+
+
+                        {
+
+                            duration: 9000,
+                            easing: 'swing',
+                            step: function () {
+                                $this.text(Math.floor(this.countNum));
+                            },
+                            complete: function () {
+                                $this.text(this.countNum);
+                                //alert('finished');
+                            }
+                        });
+
+
+                });
+                a = 1;
+            }
+
+        });
+        //# sourceURL=pen.js
+    </script>
+    <!-- End counter nhé  -->
+
+    <!-- Script Portfolio Bộ lọc Click  -->
+
+    <script>
+        $hieuung = $('.all-portfolio').isotope({
+            // // options
+            itemSelector: '.item',
+            // layoutMode: 'fitRows
+            stagger: 30,
+            transitionDuration: 600
+        });
+
+        var fillterX = $('.list-portfolio ul li.portfolio-item').on('click', function () {
+            var filterValue = $(this).attr('data-portfolio');
+            $thuoctinh = $(this).data('portfolio');
+
+
+            $hieuung.isotope({
+                filter: filterValue
+            });
+            return false;
+        });
+    </script>
+
+    <!-- end Script Portfolio Bộ lọc Click -->
+
+    <!-- script chẹc contact  -->
+
+    <script>
+        var input = $('form#contactForm .contact-form-item .need-input');
+
+
+
+        $('form#contactForm .contact-form-item .need-input').on('blur', function () {
+            if ($(this).val().trim() != "") {} else {
+                $(this).parent().addClass('msg-err-active');
+            }
+        })
+
+        $('form#contactForm').on('submit', function () {
+            var check = true;
+            for (var i = 0; i < input.length; i++) {
+                if (validate(input[i]) == false) {
+                    showValidate(input[i]);
+                    check = false;
+                    $('#msgSubmit').css({
+                        'display': 'block'
+                    })
+                    formError();
+                }
+            }
+            return check;
+        })
+
+        function formError() {
+            $("#contactForm").removeClass().addClass('shake animated').one(
+                'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+                function () {
+                    $(this).removeClass();
+                });
+        }
+
+        function validate(input) {
+            if ($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
+                if ($(input).val().trim().match(
+                        /^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/
+                    ) == null) {
+                    return false;
+                }
+            } else {
+                if ($(input).val().trim() == '') {
+                    return false;
+                }
+            }
+        }
+
+        function hideValidate(input) {
+            var thisAlert = $(input).parent();
+
+            $(thisAlert).removeClass('msg-err-active');
+        }
+
+        function showValidate(input) {
+            var thisAlert = $(input).parent();
+
+            $(thisAlert).addClass('msg-err-active');
+        }
+
+        $('form#contactForm .contact-form-item .need-input').each(function () {
+            $(this).focus(function () {
+                hideValidate(this);
+                $('#msgSubmit').css({
+                    'display': 'none'
+                })
+            });
+        });
+    </script>
+
+    <!-- Script click show Img của phần portfolios -->
+    <script>
+        $(document).ready(function () {
+            $('#portfolios span.overlay.lightbox').on('click', function () {
+                var thisSrc = $(this).prev().attr('src');
+                var img = '<img src="' + thisSrc + '" class=""/>';
+                $('#myModal').modal();
+                $('#myModal').on('shown.bs.modal', function () {
+                    $('#myModal .modal-body').html(img);
+                });
+                $('#myModal').on('hidden.bs.modal', function () {
+                    $('#myModal .modal-body').html('');
+                });
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
